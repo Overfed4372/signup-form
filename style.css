@@ -66,7 +66,7 @@ div.content-area > .form-area {
     font-weight: bold;
     padding-top: 2vh;
     padding-bottom: 2vh;
-    box-shadow: 0px 5px 5px 1px rgb(0, 0, 0,0.2);
+    /* box-shadow: 0px 5px 5px 1px rgb(0, 0, 0,0.2); */
 
 }
 .form > .form-box > .all-inputs > .input {
@@ -74,6 +74,15 @@ div.content-area > .form-area {
     flex-direction: column;
 
     width: 20vw;
+    > input {
+        appearance: none;
+        border: 2px solid #E5E7Eb;
+        height: 3vh;
+        font-size: 1rem;
+    }
+    > input:focus{
+        border: 2px solid rgb(18, 18, 248);
+    }
 }
 .form > .submit-button {
     margin-top: 10px;
