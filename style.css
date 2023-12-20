@@ -46,9 +46,6 @@ div.content-area {
 div.content-area > .content-text {
     padding: 2em 1em 1em 1em;
 }
-div.content-area > .form-area {
-    /* height: 30vh; */
-}
 .form > .form-box {
     display: flex;
     flex-direction: column;
