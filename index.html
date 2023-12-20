@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -36,8 +37,7 @@
                             </div>
                             <div class="input">
                                 <label for="email">EMAIL</label>
-                                <input type="email" id="email" pattern="/^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$/gm"
-                                required>
+                                <input type="email" id="email" required>
                             </div>
                             <div class="input">
                                 <label for="tel">PHONE NUMBER</label>
@@ -50,6 +50,7 @@
                             <div class="input">
                                 <label for="conf-pass">CONFIRM PASSWORD</label>
                                 <input type="password" id="conf-pass" required>
+                                <span class="error" aria-live="polite"></span>
                             </div>
                         </div>
                     </div>
